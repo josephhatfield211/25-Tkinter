@@ -18,7 +18,7 @@ def main():
     root = tkinter.Tk()
 
     # ------------------------------------------------------------------
-    # TODO: 3. After reading and understanding the m2e module,
+    # done: 3. After reading and understanding the m2e module,
     #   ** put a Frame on the window. **
     # ------------------------------------------------------------------
     frame1 = ttk.Frame(root, padding=20)
@@ -26,7 +26,7 @@ def main():
 
 
     # ------------------------------------------------------------------
-    # TODO: 4. After reading and understanding the m2e module,
+    # done: 4. After reading and understanding the m2e module,
     #   ** put a Button on the Frame. **
     # ------------------------------------------------------------------
     button1 = ttk.Button(frame1,text='Press F to pay respects.')
@@ -76,7 +76,7 @@ def main():
     ####################################################################
 
     # ------------------------------------------------------------------
-    # TODO: 8. As time permits, do other interesting GUI things!
+    # done: 8. As time permits, do other interesting GUI things!
     # ------------------------------------------------------------------
     entry2 = ttk.Entry(frame1)
     entry2.grid()
